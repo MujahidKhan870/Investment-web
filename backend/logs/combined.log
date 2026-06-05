@@ -1,0 +1,754 @@
+[2026-06-02T17:42:32.934Z] INFO: Running database verification and seeding check...
+[2026-06-02T17:42:33.097Z] INFO: No investment plans found. Seeding default plans (Basic, Silver, Gold, Platinum)...
+[2026-06-02T17:42:33.340Z] INFO: Successfully seeded default investment plans.
+[2026-06-02T17:42:33.365Z] INFO: No platform settings found. Seeding default configurations...
+[2026-06-02T17:42:33.375Z] INFO: Successfully seeded platform settings.
+[2026-06-02T17:42:33.387Z] INFO: No administrator user found. Creating default admin account...
+[2026-06-02T17:42:33.815Z] INFO: Successfully created default Admin Account:
+[2026-06-02T17:42:33.816Z] INFO: Email: admin@investmentplatform.com
+[2026-06-02T17:42:33.816Z] INFO: Password: AdminSecurePassword123!
+[2026-06-02T17:42:33.817Z] INFO: Database seeding checks completed successfully.
+[2026-06-02T17:42:33.825Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-02T17:42:33.834Z] INFO: Server running in development mode on port 5000
+[2026-06-02T17:49:50.041Z] INFO: Simulated Verification Link for khanmujahid7718@gmail.com: http://localhost:5173/verify-email?token=fbfc879b6cf22cca0454c3e4bbfeafcac23fe45b79bafa86c12784aef848fe73
+[2026-06-02T17:50:26.606Z] ERROR: Incorrect email or password - Error: Incorrect email or password
+    at login (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\controllers\authController.js:180:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[2026-06-02T17:50:26.629Z] ERROR: No refresh token provided - Error: No refresh token provided
+    at refreshToken (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\controllers\authController.js:233:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-06-02T17:50:45.824Z] ERROR: Incorrect email or password - Error: Incorrect email or password
+    at login (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\controllers\authController.js:180:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[2026-06-02T17:50:45.844Z] ERROR: No refresh token provided - Error: No refresh token provided
+    at refreshToken (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\controllers\authController.js:233:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-06-02T17:55:22.552Z] INFO: Running database verification and seeding check...
+[2026-06-02T17:55:22.665Z] INFO: Investment plans already exist. Seeding skipped.
+[2026-06-02T17:55:22.678Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-02T17:55:22.679Z] INFO: Database seeding checks completed successfully.
+[2026-06-02T17:55:22.693Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-02T17:59:22.412Z] INFO: Running database verification and seeding check...
+[2026-06-02T17:59:22.520Z] INFO: Investment plans already exist. Seeding skipped.
+[2026-06-02T17:59:22.529Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-02T17:59:22.544Z] INFO: Database seeding checks completed successfully.
+[2026-06-02T17:59:22.558Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-02T17:59:22.570Z] INFO: Server running in development mode on port 5000
+[2026-06-02T18:02:53.261Z] INFO: Running database verification and seeding check...
+[2026-06-02T18:02:53.294Z] INFO: Running database verification and seeding check...
+[2026-06-02T18:02:53.330Z] INFO: Investment plans already exist. Seeding skipped.
+[2026-06-02T18:02:53.346Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-02T18:02:53.349Z] INFO: Database seeding checks completed successfully.
+[2026-06-02T18:02:53.363Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-02T18:02:53.376Z] INFO: Server running in development mode on port 5000
+[2026-06-02T18:02:53.381Z] INFO: Investment plans already exist. Seeding skipped.
+[2026-06-02T18:02:53.397Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-02T18:02:53.399Z] INFO: Database seeding checks completed successfully.
+[2026-06-02T18:02:53.410Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-03T02:37:45.272Z] INFO: Running database verification and seeding check...
+[2026-06-03T02:37:45.405Z] INFO: Investment plans already exist. Seeding skipped.
+[2026-06-03T02:37:45.423Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-03T02:37:45.424Z] INFO: Database seeding checks completed successfully.
+[2026-06-03T02:37:45.435Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-03T02:37:45.444Z] INFO: Server running in development mode on port 5000
+[2026-06-03T02:40:08.936Z] INFO: Running database verification and seeding check...
+[2026-06-03T02:40:09.001Z] INFO: Investment plans already exist. Seeding skipped.
+[2026-06-03T02:40:09.012Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-03T02:40:09.013Z] INFO: Database seeding checks completed successfully.
+[2026-06-03T02:40:09.023Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-03T02:40:40.674Z] INFO: Running database verification and seeding check...
+[2026-06-03T02:40:40.742Z] INFO: Investment plans already exist. Seeding skipped.
+[2026-06-03T02:40:40.750Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-03T02:40:40.751Z] INFO: Database seeding checks completed successfully.
+[2026-06-03T02:40:40.760Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-03T02:42:45.270Z] INFO: Running database verification and seeding check...
+[2026-06-03T02:42:45.287Z] INFO: Running database verification and seeding check...
+[2026-06-03T02:42:45.292Z] INFO: Running database verification and seeding check...
+[2026-06-03T02:42:45.342Z] INFO: Investment plans already exist. Seeding skipped.
+[2026-06-03T02:42:45.358Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-03T02:42:45.360Z] INFO: Database seeding checks completed successfully.
+[2026-06-03T02:42:45.367Z] INFO: Investment plans already exist. Seeding skipped.
+[2026-06-03T02:42:45.376Z] INFO: Investment plans already exist. Seeding skipped.
+[2026-06-03T02:42:45.378Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-03T02:42:45.380Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-03T02:42:45.381Z] INFO: Database seeding checks completed successfully.
+[2026-06-03T02:42:45.390Z] INFO: Server running in development mode on port 5000
+[2026-06-03T02:42:45.392Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-03T02:42:45.393Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-03T02:42:45.394Z] INFO: Database seeding checks completed successfully.
+[2026-06-03T02:42:45.405Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-03T02:44:20.833Z] INFO: Simulated Verification Link for mujahidtest123@gmail.com: http://localhost:5173/verify-email?token=6802df4602419eefd24e4dbfc13f55f4fad56d8c358f95e4df07ddd345d0e676
+[2026-06-03T03:00:18.963Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-03T03:10:18.970Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-03T03:10:18.993Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-03T03:15:18.962Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-03T03:26:18.959Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-03T03:26:18.984Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-03T03:30:19.038Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-03T18:06:24.991Z] INFO: Running database verification and seeding check...
+[2026-06-03T18:06:25.126Z] INFO: Investment plans already exist. Seeding skipped.
+[2026-06-03T18:06:25.168Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-03T18:06:25.169Z] INFO: Database seeding checks completed successfully.
+[2026-06-03T18:06:25.177Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-03T18:06:25.186Z] INFO: Server running in development mode on port 5000
+[2026-06-03T18:13:52.902Z] INFO: Running database verification and seeding check...
+[2026-06-03T18:13:52.904Z] INFO: Running database verification and seeding check...
+[2026-06-03T18:14:02.920Z] ERROR: Error occurred during database seeding: - Operation `investmentplans.countDocuments()` buffering timed out after 10000ms
+[2026-06-03T18:14:02.919Z] ERROR: Error occurred during database seeding: - Operation `investmentplans.countDocuments()` buffering timed out after 10000ms
+[2026-06-03T18:14:12.933Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-03T18:14:12.982Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-03T18:14:12.993Z] INFO: Server running in development mode on port 5000
+[2026-06-03T18:14:15.818Z] INFO: Running database verification and seeding check...
+[2026-06-03T18:14:25.840Z] ERROR: Error occurred during database seeding: - Operation `investmentplans.countDocuments()` buffering timed out after 10000ms
+[2026-06-03T18:14:35.911Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-03T18:15:35.144Z] ERROR: Failed to start server: - seed is not defined
+[2026-06-03T18:15:35.154Z] ERROR: Failed to start server: - seed is not defined
+[2026-06-03T18:15:35.417Z] ERROR: Failed to start server: - seed is not defined
+[2026-06-03T18:15:49.322Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-03T18:15:49.330Z] INFO: Server running in development mode on port 5000
+[2026-06-03T18:15:49.337Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-03T18:15:49.338Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-03T18:17:10.436Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-03T18:21:00.556Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-03T18:21:00.564Z] INFO: Server running in development mode on port 5000
+[2026-06-04T16:54:54.319Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-04T16:54:54.335Z] INFO: Server running in development mode on port 5000
+[2026-06-04T16:55:14.089Z] INFO: Running database verification and seeding check...
+[2026-06-04T16:55:14.220Z] INFO: Investment plans already exist. Seeding skipped.
+[2026-06-04T16:55:14.237Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-04T16:55:14.238Z] INFO: Database seeding checks completed successfully.
+[2026-06-04T16:55:14.248Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-04T16:55:14.256Z] INFO: Server running in development mode on port 5000
+[2026-06-04T16:56:05.130Z] INFO: Simulated Verification Link for testuser_m17k3d@testmail.com: http://localhost:5173/verify-email?token=957870e63854bf8bc872409064f52fd6426c5e66e0d63df140a22b2790ade56d
+[2026-06-04T16:57:36.692Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-04T16:57:36.706Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-04T16:59:16.597Z] INFO: Simulated Verification Link for khanmujahid123@gmail.com: http://localhost:5173/verify-email?token=229c0de6976f2fe2b17cd6e2490688731d3ebd2d76f0a1668cfd09127439fd32
+[2026-06-04T17:00:35.477Z] ERROR: Transaction validation failed: transactionReference: Path `transactionReference` is required. - ValidationError: Transaction validation failed: transactionReference: Path `transactionReference` is required.
+    at Document.invalidate (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\mongoose\lib\document.js:3381:32)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\mongoose\lib\document.js:3142:17
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\mongoose\lib\schemaType.js:1443:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11)
+[2026-06-04T17:02:09.405Z] ERROR: Transaction validation failed: transactionReference: Path `transactionReference` is required. - ValidationError: Transaction validation failed: transactionReference: Path `transactionReference` is required.
+    at Document.invalidate (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\mongoose\lib\document.js:3381:32)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\mongoose\lib\document.js:3142:17
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\mongoose\lib\schemaType.js:1443:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11)
+[2026-06-04T17:03:31.194Z] INFO: Running database verification and seeding check...
+[2026-06-04T17:03:31.246Z] INFO: Investment plans already exist. Seeding skipped.
+[2026-06-04T17:03:31.253Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-04T17:03:31.254Z] INFO: Database seeding checks completed successfully.
+[2026-06-04T17:03:31.262Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-04T17:03:41.727Z] INFO: Running database verification and seeding check...
+[2026-06-04T17:03:41.781Z] INFO: Investment plans already exist. Seeding skipped.
+[2026-06-04T17:03:41.792Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-04T17:03:41.793Z] INFO: Database seeding checks completed successfully.
+[2026-06-04T17:03:41.802Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-04T17:07:50.233Z] INFO: Running database verification and seeding check...
+[2026-06-04T17:07:50.284Z] INFO: Investment plans already exist. Seeding skipped.
+[2026-06-04T17:07:50.296Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-04T17:07:50.297Z] INFO: Database seeding checks completed successfully.
+[2026-06-04T17:07:50.304Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-04T17:07:50.312Z] INFO: Server running in development mode on port 5000
+[2026-06-04T17:18:36.397Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-04T17:48:56.431Z] INFO: Running database verification and seeding check...
+[2026-06-04T17:48:56.435Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-04T17:48:56.575Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-04T17:48:56.576Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-04T17:48:56.600Z] INFO: Successfully seeded platform settings.
+[2026-06-04T17:48:56.629Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-04T17:48:56.630Z] INFO: Database seeding checks completed successfully.
+[2026-06-04T17:48:56.632Z] INFO: Database seeding connection closed.
+[2026-06-04T17:49:15.246Z] INFO: Running database verification and seeding check...
+[2026-06-04T17:49:15.249Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-04T17:49:17.547Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-04T17:49:17.548Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-04T17:49:17.986Z] INFO: Successfully seeded platform settings.
+[2026-06-04T17:49:18.075Z] INFO: No administrator user found. Creating default admin account...
+[2026-06-04T17:49:18.864Z] INFO: Successfully created default Admin Account:
+[2026-06-04T17:49:18.865Z] INFO: Email: admin@investmentplatform.com
+[2026-06-04T17:49:18.866Z] INFO: Password: AdminSecurePassword123!
+[2026-06-04T17:49:18.866Z] INFO: Database seeding checks completed successfully.
+[2026-06-04T17:49:18.869Z] INFO: Database seeding connection closed.
+[2026-06-04T17:50:12.392Z] INFO: Running database verification and seeding check...
+[2026-06-04T17:50:12.395Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-04T17:50:14.731Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-04T17:50:14.733Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-04T17:50:15.032Z] INFO: Successfully seeded platform settings.
+[2026-06-04T17:50:15.345Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-04T17:50:15.346Z] INFO: Database seeding checks completed successfully.
+[2026-06-04T17:50:15.425Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-04T17:50:15.436Z] INFO: Server running in development mode on port 5000
+[2026-06-04T17:50:55.792Z] INFO: Simulated Verification Link for testuser_38j76g@testmail.com: http://localhost:5173/verify-email?token=f7d1dcbe77badbe7b2de8972c31aa2085b283c34bc0f73726a6e75c0ae916c2b
+[2026-06-04T17:51:25.385Z] INFO: Simulated Verification Link for testuser_l53gt@testmail.com: http://localhost:5173/verify-email?token=b721803bb8c5f0385600377ecff972ae8f8c19c303bf832f19c5e0b559d5338e
+[2026-06-04T17:54:04.590Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-04T17:54:04.603Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-04T17:54:04.725Z] ERROR: Session has been revoked or expired. Please login again. - Error: Session has been revoked or expired. Please login again.
+    at refreshToken (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\controllers\authController.js:247:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-04T17:54:04.729Z] ERROR: Session has been revoked or expired. Please login again. - Error: Session has been revoked or expired. Please login again.
+    at refreshToken (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\controllers\authController.js:247:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-04T17:54:50.551Z] INFO: Simulated Verification Link for khanmujahid1234@gmail.com: http://localhost:5173/verify-email?token=76d3c5ff282b015217630fe82f628f6c6fab3ab3320ac9f9674f59ae2ceaea3a
+[2026-06-04T18:10:18.677Z] INFO: Starting daily earnings calculation engine...
+[2026-06-04T18:10:19.802Z] INFO: Earnings Engine run complete. Processed: 1, Skipped/Expired: 0, Total Payout: $150
+[2026-06-04T18:10:34.520Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-04T18:27:08.354Z] INFO: Running database verification and seeding check...
+[2026-06-04T18:27:08.357Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-04T18:27:09.799Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-04T18:27:09.800Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-04T18:27:10.066Z] INFO: Successfully seeded platform settings.
+[2026-06-04T18:27:10.152Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-04T18:27:10.153Z] INFO: Database seeding checks completed successfully.
+[2026-06-04T18:27:10.236Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-04T18:27:10.245Z] INFO: Server running in development mode on port 5000
+[2026-06-04T18:27:36.080Z] INFO: Simulated Verification Link for testuser_4o39n@testmail.com: http://localhost:5173/verify-email?token=177adfff9464947e42c0b139f27fe87f4f021abcd2c40b2466eb90edcc06fefa
+[2026-06-04T18:28:10.790Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-04T18:28:10.804Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-04T18:29:03.055Z] INFO: Starting daily earnings calculation engine...
+[2026-06-04T18:29:03.363Z] WARN: Investment 6a21bb21432c5c51eefc34b0 does not have a linked plan. Skipping.
+[2026-06-04T18:29:04.591Z] INFO: Earnings Engine run complete. Processed: 1, Skipped/Expired: 0, Total Payout: $150
+[2026-06-04T18:30:00.858Z] INFO: Triggering scheduled daily earnings calculation...
+[2026-06-04T18:30:00.859Z] INFO: Starting daily earnings calculation engine...
+[2026-06-04T18:30:01.736Z] WARN: Investment 6a21bb21432c5c51eefc34b0 does not have a linked plan. Skipping.
+[2026-06-04T18:30:01.834Z] INFO: Earnings already calculated for investment 6a21c39be2e67aed6252cbbe on 2026-06-04. Skipping.
+[2026-06-04T18:30:01.834Z] INFO: Earnings Engine run complete. Processed: 0, Skipped/Expired: 1, Total Payout: $0
+[2026-06-04T18:30:20.061Z] INFO: Simulated Verification Link for khanafzal1234@gmail.com: http://localhost:5173/verify-email?token=72d327f12325a5531c9733a2804ca70b6e4e609625ce07a9762ffc08fd115433
+[2026-06-04T18:33:33.521Z] INFO: Simulated Password Reset Link for khanafzal1234@gmail.com: http://localhost:5173/reset-password?token=3c54854bb2945430f9555ce76ff81706143d8e7813cda4e2995f397fbeb9a61a
+[2026-06-04T18:44:26.417Z] INFO: Running database verification and seeding check...
+[2026-06-04T18:44:26.422Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-04T18:44:28.292Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-04T18:44:28.294Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-04T18:44:28.652Z] INFO: Successfully seeded platform settings.
+[2026-06-04T18:44:29.056Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-04T18:44:29.057Z] INFO: Database seeding checks completed successfully.
+[2026-06-04T18:44:29.186Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-04T18:44:29.206Z] INFO: Server running in development mode on port 5000
+[2026-06-05T02:18:09.471Z] INFO: Running database verification and seeding check...
+[2026-06-05T02:18:09.474Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T02:18:10.678Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T02:18:10.680Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T02:18:10.847Z] INFO: Successfully seeded platform settings.
+[2026-06-05T02:18:10.930Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T02:18:10.931Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T02:18:11.031Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T02:18:11.041Z] INFO: Server running in development mode on port 5000
+[2026-06-05T02:18:25.573Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T02:18:25.593Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T02:21:00.759Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T02:21:00.773Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T02:46:16.472Z] INFO: Running database verification and seeding check...
+[2026-06-05T02:46:16.475Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T02:46:17.434Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T02:46:17.435Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T02:46:17.638Z] INFO: Successfully seeded platform settings.
+[2026-06-05T02:46:17.740Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T02:46:17.740Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T02:46:17.816Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T02:46:59.951Z] INFO: Running database verification and seeding check...
+[2026-06-05T02:46:59.953Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T02:47:01.467Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T02:47:01.468Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T02:47:01.773Z] INFO: Successfully seeded platform settings.
+[2026-06-05T02:47:01.876Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T02:47:01.876Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T02:47:01.980Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T02:47:01.990Z] INFO: Server running in development mode on port 5000
+[2026-06-05T02:47:34.746Z] INFO: Simulated Verification Link for testuser_emk5ag@testmail.com: http://localhost:5173/verify-email?token=318fa57d174586ac25c87c932712511e485a3339994c62a6b84c041892b8e453
+[2026-06-05T02:48:13.206Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T02:48:13.219Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T02:49:51.575Z] INFO: Running database verification and seeding check...
+[2026-06-05T02:49:51.578Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T02:49:53.456Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T02:49:53.457Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T02:49:53.708Z] INFO: Successfully seeded platform settings.
+[2026-06-05T02:49:53.912Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T02:49:53.913Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T02:49:54.109Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T02:50:47.980Z] INFO: Simulated Verification Link for khanmmm123@gmail.com: http://localhost:5173/verify-email?token=bd15a048945188863f89305948f8a59b74f45e7d4c43828db5b36589410fd89a
+[2026-06-05T02:53:50.012Z] INFO: Running database verification and seeding check...
+[2026-06-05T02:53:50.014Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T02:53:51.188Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T02:53:51.189Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T02:53:51.589Z] INFO: Successfully seeded platform settings.
+[2026-06-05T02:53:51.661Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T02:53:51.662Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T02:53:51.796Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T02:53:51.804Z] INFO: Server running in development mode on port 5000
+[2026-06-05T03:04:09.866Z] INFO: Running database verification and seeding check...
+[2026-06-05T03:04:09.868Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T03:04:13.179Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T03:04:13.180Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T03:04:14.095Z] INFO: Successfully seeded platform settings.
+[2026-06-05T03:04:14.505Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T03:04:14.506Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T03:04:14.915Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T03:04:14.924Z] INFO: Server running in development mode on port 5000
+[2026-06-05T03:07:46.480Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T03:07:46.498Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T03:14:34.093Z] INFO: Running database verification and seeding check...
+[2026-06-05T03:14:34.095Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T03:14:47.563Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T03:14:47.564Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T03:14:49.198Z] INFO: Successfully seeded platform settings.
+[2026-06-05T03:14:50.080Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T03:14:50.081Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T03:14:50.939Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T03:14:50.947Z] INFO: Server running in development mode on port 5000
+[2026-06-05T03:29:32.634Z] INFO: Running database verification and seeding check...
+[2026-06-05T03:29:32.645Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T03:29:33.989Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T03:29:33.991Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T03:29:34.267Z] INFO: Successfully seeded platform settings.
+[2026-06-05T03:29:34.368Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T03:29:34.371Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T03:29:34.445Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T03:29:34.459Z] INFO: Server running in development mode on port 5000
+[2026-06-05T03:37:11.673Z] INFO: Running database verification and seeding check...
+[2026-06-05T03:37:11.680Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T03:37:11.729Z] INFO: Running database verification and seeding check...
+[2026-06-05T03:37:11.735Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T03:37:21.656Z] INFO: Running database verification and seeding check...
+[2026-06-05T03:37:21.656Z] INFO: Running database verification and seeding check...
+[2026-06-05T03:37:21.662Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T03:37:21.665Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T03:37:25.578Z] ERROR: Error occurred during database seeding: - E11000 duplicate key error collection: investment_platform.investmentplans index: name_1 dup key: { name: "Basic Plan" }
+[2026-06-05T03:37:25.588Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T03:37:25.590Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T03:37:25.601Z] INFO: Running database verification and seeding check...
+[2026-06-05T03:37:25.608Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T03:37:25.981Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T03:37:25.999Z] INFO: Server running in development mode on port 5000
+[2026-06-05T03:37:26.183Z] INFO: Successfully seeded platform settings.
+[2026-06-05T03:37:26.276Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T03:37:26.279Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T03:37:26.385Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T03:37:28.110Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T03:37:28.112Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T03:37:28.415Z] INFO: Successfully seeded platform settings.
+[2026-06-05T03:37:28.709Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T03:37:28.711Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T03:37:28.800Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T03:37:34.880Z] INFO: Running database verification and seeding check...
+[2026-06-05T03:37:34.885Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T03:37:36.212Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T03:37:36.215Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T03:37:36.595Z] INFO: Successfully seeded platform settings.
+[2026-06-05T03:37:36.684Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T03:37:36.686Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T03:37:36.771Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T03:39:01.288Z] INFO: Running database verification and seeding check...
+[2026-06-05T03:39:01.292Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T03:39:05.532Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T03:39:05.534Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T03:39:05.726Z] INFO: Successfully seeded platform settings.
+[2026-06-05T03:39:05.800Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T03:39:05.802Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T03:39:05.893Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T03:39:05.910Z] INFO: Server running in development mode on port 5001
+[2026-06-05T03:39:45.390Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T03:39:45.421Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T03:40:17.827Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T03:40:17.843Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T03:47:11.586Z] INFO: Running database verification and seeding check...
+[2026-06-05T03:47:11.590Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T03:47:14.613Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T03:47:14.616Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T03:47:14.815Z] INFO: Successfully seeded platform settings.
+[2026-06-05T03:47:14.898Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T03:47:14.900Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T03:47:14.898Z] INFO: Running database verification and seeding check...
+[2026-06-05T03:47:14.903Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T03:47:14.981Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T03:47:34.484Z] ERROR: Error occurred during database seeding: - Connection pool for cluster0-shard-00-02.tl3lh.mongodb.net:27017 was cleared because another operation failed with: "read ECONNRESET"
+[2026-06-05T03:47:49.061Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T03:48:18.667Z] INFO: Running database verification and seeding check...
+[2026-06-05T03:48:18.671Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T03:48:21.684Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T03:48:21.686Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T03:48:22.086Z] INFO: Successfully seeded platform settings.
+[2026-06-05T03:48:22.303Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T03:48:22.305Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T03:48:22.522Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T03:48:22.539Z] INFO: Server running in development mode on port 5002
+[2026-06-05T03:49:58.078Z] INFO: Simulated Verification Link for armankan123@gmail.com: http://localhost:5173/verify-email?token=cde0c770f0ecd724848b3963b19c87fb722605bb7e11c8cd9bb368a60aafe4cb
+[2026-06-05T15:38:10.902Z] INFO: Running database verification and seeding check...
+[2026-06-05T15:38:10.906Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T15:38:17.012Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T15:38:17.014Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T15:38:17.731Z] INFO: Successfully seeded platform settings.
+[2026-06-05T15:38:18.175Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T15:38:18.176Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T15:38:18.921Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T15:38:18.939Z] INFO: Server running in development mode on port 5002
+[2026-06-05T15:41:20.501Z] ERROR: Incorrect email or password - Error: Incorrect email or password
+    at login (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\controllers\authController.js:160:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-05T15:41:20.872Z] ERROR: Incorrect email or password - Error: Incorrect email or password
+    at login (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\controllers\authController.js:160:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-05T15:42:01.271Z] INFO: Simulated Verification Link for rehanraza12@gmail.com: http://localhost:5173/verify-email?token=8662634bae577e358eaed073b3d130068f9f305fdf2729567bb157b7399dac27
+[2026-06-05T15:48:31.955Z] INFO: Running database verification and seeding check...
+[2026-06-05T15:48:31.959Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T15:48:35.004Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T15:48:35.006Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T15:48:35.169Z] INFO: Successfully seeded platform settings.
+[2026-06-05T15:48:35.776Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T15:48:35.777Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T15:48:35.854Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T15:48:35.866Z] INFO: Server running in development mode on port 5002
+[2026-06-05T16:56:36.461Z] INFO: Running database verification and seeding check...
+[2026-06-05T16:56:36.466Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T16:56:37.662Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T16:56:37.663Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T16:56:37.822Z] INFO: Successfully seeded platform settings.
+[2026-06-05T16:56:37.905Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T16:56:37.906Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T16:56:37.983Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T16:56:37.998Z] INFO: Server running in development mode on port 5002
+[2026-06-05T16:57:47.833Z] INFO: Simulated Verification Link for testuser_cyzf5@testmail.com: http://localhost:5173/verify-email?token=21dfb64a90a7a4d7c8e8c1b8bdf2773013b2496207ca86a7c784ae89c9de1058
+[2026-06-05T16:58:12.532Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T16:58:12.547Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T17:01:11.820Z] INFO: Simulated Verification Link for armankhan123@gmail.com: http://localhost:5173/verify-email?token=ad65f94e711f0474d9e6ce368200e885dc940f3bd859abc58da8f0a549e11b7c
+[2026-06-05T17:11:59.436Z] INFO: Running database verification and seeding check...
+[2026-06-05T17:11:59.449Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-05T17:12:05.663Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-05T17:12:05.665Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-05T17:12:07.755Z] INFO: Successfully seeded platform settings.
+[2026-06-05T17:12:08.018Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-05T17:12:08.019Z] INFO: Database seeding checks completed successfully.
+[2026-06-05T17:12:08.200Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-05T17:13:16.728Z] INFO: Simulated Verification Link for sbkhan123@gmail.com: http://localhost:5173/verify-email?token=a1b9ea03dccfc766ba45b14622d4c458872464506da59c1aafbeee366ebc75cd
+[2026-06-05T17:28:09.579Z] INFO: Starting daily earnings calculation engine...
+[2026-06-05T17:28:09.894Z] WARN: Investment 6a21bb21432c5c51eefc34b0 does not have a linked plan. Skipping.
+[2026-06-05T17:28:09.896Z] WARN: Investment 6a21c39be2e67aed6252cbbe does not have a linked plan. Skipping.
+[2026-06-05T17:28:09.897Z] WARN: Investment 6a2238c9251cef570ba2ddac does not have a linked plan. Skipping.
+[2026-06-05T17:28:09.899Z] WARN: Investment 6a23000f9e2b86d2bc388f59 does not have a linked plan. Skipping.
+[2026-06-05T17:28:09.900Z] INFO: Earnings Engine run complete. Processed: 0, Skipped/Expired: 0, Total Payout: $0
+[2026-06-05T17:32:28.881Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T17:32:28.895Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)

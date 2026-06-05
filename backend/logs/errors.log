@@ -1,0 +1,408 @@
+[2026-06-02T17:50:26.608Z] ERROR: Incorrect email or password - Error: Incorrect email or password
+    at login (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\controllers\authController.js:180:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[2026-06-02T17:50:26.630Z] ERROR: No refresh token provided - Error: No refresh token provided
+    at refreshToken (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\controllers\authController.js:233:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-06-02T17:50:45.826Z] ERROR: Incorrect email or password - Error: Incorrect email or password
+    at login (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\controllers\authController.js:180:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[2026-06-02T17:50:45.846Z] ERROR: No refresh token provided - Error: No refresh token provided
+    at refreshToken (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\controllers\authController.js:233:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-06-03T03:00:18.971Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-03T03:10:18.972Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-03T03:10:18.994Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-03T03:15:18.963Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-03T03:26:18.968Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-03T03:26:18.986Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-03T03:30:19.039Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-03T18:14:02.921Z] ERROR: Error occurred during database seeding: - Operation `investmentplans.countDocuments()` buffering timed out after 10000ms
+[2026-06-03T18:14:02.921Z] ERROR: Error occurred during database seeding: - Operation `investmentplans.countDocuments()` buffering timed out after 10000ms
+[2026-06-03T18:14:12.966Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-03T18:14:12.983Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-03T18:14:25.841Z] ERROR: Error occurred during database seeding: - Operation `investmentplans.countDocuments()` buffering timed out after 10000ms
+[2026-06-03T18:14:35.912Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-03T18:15:35.146Z] ERROR: Failed to start server: - seed is not defined
+[2026-06-03T18:15:35.157Z] ERROR: Failed to start server: - seed is not defined
+[2026-06-03T18:15:35.420Z] ERROR: Failed to start server: - seed is not defined
+[2026-06-03T18:15:49.325Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-03T18:15:49.340Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-03T18:15:49.341Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-03T18:17:10.438Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-03T18:21:00.559Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-04T16:54:54.323Z] ERROR: Failed to initialize cron service: - Operation `settings.findOne()` buffering timed out after 10000ms
+[2026-06-04T16:57:36.693Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-04T16:57:36.707Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-04T17:00:35.478Z] ERROR: Transaction validation failed: transactionReference: Path `transactionReference` is required. - ValidationError: Transaction validation failed: transactionReference: Path `transactionReference` is required.
+    at Document.invalidate (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\mongoose\lib\document.js:3381:32)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\mongoose\lib\document.js:3142:17
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\mongoose\lib\schemaType.js:1443:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11)
+[2026-06-04T17:02:09.406Z] ERROR: Transaction validation failed: transactionReference: Path `transactionReference` is required. - ValidationError: Transaction validation failed: transactionReference: Path `transactionReference` is required.
+    at Document.invalidate (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\mongoose\lib\document.js:3381:32)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\mongoose\lib\document.js:3142:17
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\mongoose\lib\schemaType.js:1443:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11)
+[2026-06-04T17:18:36.399Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-04T17:54:04.591Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-04T17:54:04.604Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-04T17:54:04.726Z] ERROR: Session has been revoked or expired. Please login again. - Error: Session has been revoked or expired. Please login again.
+    at refreshToken (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\controllers\authController.js:247:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-04T17:54:04.730Z] ERROR: Session has been revoked or expired. Please login again. - Error: Session has been revoked or expired. Please login again.
+    at refreshToken (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\controllers\authController.js:247:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-04T18:10:34.521Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-04T18:28:10.791Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-04T18:28:10.804Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T02:18:25.574Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T02:18:25.594Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T02:21:00.761Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T02:21:00.774Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T02:48:13.207Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T02:48:13.220Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T03:07:46.483Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T03:07:46.499Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T03:37:25.580Z] ERROR: Error occurred during database seeding: - E11000 duplicate key error collection: investment_platform.investmentplans index: name_1 dup key: { name: "Basic Plan" }
+[2026-06-05T03:39:45.392Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T03:39:45.422Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T03:40:17.828Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T03:40:17.845Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T03:47:34.486Z] ERROR: Error occurred during database seeding: - Connection pool for cluster0-shard-00-02.tl3lh.mongodb.net:27017 was cleared because another operation failed with: "read ECONNRESET"
+[2026-06-05T15:41:20.502Z] ERROR: Incorrect email or password - Error: Incorrect email or password
+    at login (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\controllers\authController.js:160:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-05T15:41:20.873Z] ERROR: Incorrect email or password - Error: Incorrect email or password
+    at login (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\controllers\authController.js:160:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-05T16:58:12.533Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T16:58:12.548Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T17:32:28.882Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-05T17:32:28.896Z] ERROR: Token invalid or expired. Please login again. - Error: Token invalid or expired. Please login again.
+    at protect (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\middleware\authMiddleware.js:26:19)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)

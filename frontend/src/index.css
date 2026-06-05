@@ -1,0 +1,767 @@
+/* ============================================================
+   AURA CAPITAL — GLOBAL STYLESHEET
+   Complete Responsive Implementation (320px → 1920px)
+   Mobile-first, no horizontal scroll, full breakpoint coverage
+   ============================================================ */
+
+/* ── 1. DESIGN TOKENS ─────────────────────────────────────── */
+:root, [data-theme="dark"] {
+  --bg-primary: #05070f;
+  --bg-secondary: #0a0d17;
+  --glass-bg: rgba(10, 13, 23, 0.8);
+  --glass-border: rgba(212, 175, 55, 0.09);
+  --glass-highlight: rgba(255, 255, 255, 0.01);
+
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #475569;
+
+  --accent-cyan: hsl(43, 68%, 53%);
+  --accent-cyan-glow: hsla(43, 68%, 53%, 0.12);
+  --accent-violet: hsl(38, 48%, 46%);
+  --accent-violet-glow: hsla(38, 48%, 46%, 0.12);
+  --accent-emerald: hsl(142, 70%, 45%);
+  --accent-emerald-glow: hsla(142, 70%, 45%, 0.12);
+  --accent-rose: hsl(0, 72%, 50%);
+  --accent-rose-glow: hsla(0, 72%, 50%, 0.12);
+  --accent-amber: hsl(45, 100%, 48%);
+  --accent-amber-glow: hsla(45, 100%, 48%, 0.12);
+
+  --shadow-glow: 0 10px 40px -10px rgba(0, 0, 0, 0.7);
+  --shadow-cyan: 0 0 25px 1px hsla(43, 68%, 53%, 0.25);
+
+  --glow-color-1: rgba(212, 175, 55, 0.04);
+  --glow-color-2: rgba(197, 160, 89, 0.03);
+
+  --sidebar-width: 260px;
+}
+
+[data-theme="light"] {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --glass-bg: rgba(255, 255, 255, 0.9);
+  --glass-border: rgba(212, 175, 55, 0.18);
+  --glass-highlight: rgba(0, 0, 0, 0.01);
+
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+
+  --accent-cyan: hsl(217, 91%, 56%);
+  --accent-cyan-glow: hsla(217, 91%, 56%, 0.1);
+  --accent-violet: hsl(43, 68%, 53%);
+  --accent-violet-glow: hsla(43, 68%, 53%, 0.1);
+  --accent-emerald: hsl(142, 70%, 38%);
+  --accent-emerald-glow: hsla(142, 70%, 38%, 0.1);
+  --accent-rose: hsl(340, 80%, 50%);
+  --accent-rose-glow: hsla(340, 80%, 50%, 0.1);
+  --accent-amber: hsl(45, 100%, 42%);
+  --accent-amber-glow: hsla(45, 100%, 42%, 0.1);
+
+  --shadow-glow: 0 4px 20px -2px rgba(15, 23, 42, 0.06);
+  --shadow-cyan: 0 0 20px 1px hsla(217, 91%, 56%, 0.15);
+
+  --glow-color-1: rgba(59, 130, 246, 0.03);
+  --glow-color-2: rgba(212, 175, 55, 0.02);
+}
+
+:root {
+  --font-body: 'Inter', sans-serif;
+  --font-heading: 'Outfit', sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+}
+
+/* ── 2. SMOOTH THEME TRANSITIONS ──────────────────────────── */
+body, .glass-panel, .form-control, .btn,
+table, th, td, h1, h2, h3, h4, h5, h6,
+p, span, a, input, select, textarea, aside, header {
+  transition: background-color 0.3s ease, border-color 0.3s ease,
+              color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+/* ── 3. DOCUMENT RESETS ────────────────────────────────────── */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-body);
+  scrollbar-width: thin;
+  scrollbar-color: rgba(212, 175, 55, 0.1) transparent;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  /* CRITICAL: prevent horizontal scroll globally */
+  overflow-x: hidden;
+  max-width: 100vw;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: -10%;
+  left: -10%;
+  width: 50%;
+  height: 50%;
+  background: radial-gradient(circle, var(--glow-color-1) 0%, transparent 70%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  bottom: -10%;
+  right: -10%;
+  width: 50%;
+  height: 50%;
+  background: radial-gradient(circle, var(--glow-color-2) 0%, transparent 70%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* ── 4. SCROLLBAR STYLES ───────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-full);
+}
+::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.2); }
+
+/* ── 5. TYPOGRAPHY ─────────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  word-break: break-word;
+}
+
+p, span, a, li {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+/* ── 6. GLASSMORPHISM COMPONENTS ───────────────────────────── */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  background-image: linear-gradient(
+    135deg,
+    var(--glass-highlight) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-glow);
+}
+
+.glass-panel-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.glass-panel-hover:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.45);
+}
+
+/* Disable hover lift on touch devices to avoid stickiness */
+@media (hover: none) {
+  .glass-panel-hover:hover {
+    transform: none;
+  }
+}
+
+/* ── 7. APP LAYOUT SYSTEM ──────────────────────────────────── */
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Main content area — shifts right on desktop to account for sidebar */
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  margin-left: var(--sidebar-width);
+  transition: margin 0.3s ease;
+  min-height: 100vh;
+  /* Prevent content from overflowing viewport */
+  max-width: calc(100vw - var(--sidebar-width));
+  overflow-x: hidden;
+}
+
+/* ── 8. BUTTON SYSTEM ──────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  font-family: var(--font-heading);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  /* Touch-friendly minimum size per Apple/Google HIG */
+  min-height: 44px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent-cyan) 0%, var(--accent-violet) 100%);
+  color: #000;
+  font-weight: 600;
+}
+.btn-primary:hover { box-shadow: var(--shadow-cyan); transform: scale(1.02); }
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+  border: 1px solid var(--glass-border);
+}
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn-danger {
+  background: rgba(244, 63, 94, 0.1);
+  color: var(--accent-rose);
+  border: 1px solid rgba(244, 63, 94, 0.2);
+}
+.btn-danger:hover {
+  background: var(--accent-rose);
+  color: #000;
+  box-shadow: 0 0 15px 1px var(--accent-rose-glow);
+}
+
+/* ── 9. FORM SYSTEM ────────────────────────────────────────── */
+.form-group {
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-label {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.form-control {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--glass-border);
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  outline: none;
+  transition: all 0.2s ease;
+  min-height: 44px;
+  font-size: 1rem; /* Prevent iOS zoom on focus */
+}
+
+.form-control:focus {
+  border-color: var(--accent-cyan);
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 0 10px 1px var(--accent-cyan-glow);
+}
+
+/* ── 10. GRID SYSTEM ───────────────────────────────────────── */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.grid-2-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+}
+
+/* ── 11. TABLE SYSTEM ──────────────────────────────────────── */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: var(--radius-sm);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  min-width: 500px; /* Ensures proper scrolling instead of content squish */
+}
+
+.table th {
+  padding: 1rem;
+  font-family: var(--font-heading);
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--glass-border);
+  font-weight: 500;
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.table td {
+  padding: 1.25rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  font-size: 0.9rem;
+  color: var(--text-primary);
+}
+
+.table tbody tr:hover { background: rgba(255, 255, 255, 0.01); }
+
+/* ── 12. STATUS PILLS ──────────────────────────────────────── */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.pill-success  { background: var(--accent-emerald-glow); color: var(--accent-emerald); }
+.pill-pending  { background: var(--accent-amber-glow);   color: var(--accent-amber);   }
+.pill-danger   { background: var(--accent-rose-glow);    color: var(--accent-rose);    }
+.pill-info     { background: var(--accent-cyan-glow);    color: var(--accent-cyan);    }
+.pill-active   { background: var(--accent-emerald-glow); color: var(--accent-emerald); }
+
+/* ── 13. SKELETON LOADERS ──────────────────────────────────── */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.03) 25%,
+    rgba(255, 255, 255, 0.08) 50%,
+    rgba(255, 255, 255, 0.03) 75%
+  );
+  background-size: 200% 100%;
+  animation: loading-pulse 1.5s infinite;
+  border-radius: var(--radius-sm);
+}
+
+.skeleton-text  { height: 16px; margin-bottom: 8px; width: 100%; }
+.skeleton-card  { height: 150px; padding: 1.5rem; }
+
+@keyframes loading-pulse {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ── 14. UTILITY ANIMATIONS ────────────────────────────────── */
+.spin { animation: spinner 0.8s linear infinite; }
+@keyframes spinner { to { transform: rotate(360deg); } }
+
+.fade-in { animation: fadeIn 0.4s ease-out forwards; }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── 15. SIDEBAR SYSTEM ────────────────────────────────────── */
+/* Mobile close button — hidden on desktop, shown via media query below */
+.sidebar-mobile-close {
+  display: none;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--glass-border);
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  color: var(--text-secondary);
+  z-index: 2;
+  min-height: 36px;
+  min-width: 36px;
+}
+
+/* ── 16. NAVBAR ────────────────────────────────────────────── */
+.navbar-title {
+  font-size: clamp(1.15rem, 4vw, 1.75rem);
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 60vw;
+}
+
+/* Hamburger menu — hidden on desktop */
+.sidebar-mobile-toggle {
+  display: none !important;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--glass-border);
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  min-height: 40px;
+  min-width: 40px;
+}
+
+/* ── 17. DASHBOARD LAYOUTS ─────────────────────────────────── */
+.dashboard-double-col, .admin-double-panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.dashboard-col-left  { flex: 1.5; min-width: min(280px, 100%); }
+.dashboard-col-right { flex: 1;   min-width: min(280px, 100%); padding: 1.75rem; }
+
+.admin-panel-left  { flex: 1;   min-width: min(280px, 100%); }
+.admin-panel-right { flex: 1.5; min-width: min(280px, 100%); }
+
+/* ── 18. AUTH PAGE LAYOUT ──────────────────────────────────── */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1.5rem;
+  background-color: var(--bg-primary);
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+}
+
+/* ── 19. MODAL SYSTEM ──────────────────────────────────────── */
+.modal-overlay-full {
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 5, 10, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.modal-card {
+  width: 100%;
+  max-width: 480px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+/* ── 20. NOTIFICATIONS DROPDOWN ────────────────────────────── */
+.notifications-dropdown {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 320px;
+  max-height: 400px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  box-shadow: var(--shadow-glow);
+  display: flex;
+  flex-direction: column;
+  z-index: 1100;
+}
+
+/* ── 21. ADMIN TAB BAR ─────────────────────────────────────── */
+.admin-tab-bar {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  background: rgba(10, 15, 29, 0.4);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  flex-shrink: 0;
+  scrollbar-width: none;
+}
+.admin-tab-bar::-webkit-scrollbar { display: none; }
+
+/* ── 22. UTILITY CLASSES ───────────────────────────────────── */
+.w-full    { width: 100%; }
+.max-w-full{ max-width: 100%; }
+.overflow-hidden { overflow: hidden; }
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   RESPONSIVE BREAKPOINTS — MOBILE FIRST
+   ═══════════════════════════════════════════════════════════ */
+
+/* ── BREAKPOINT: ≤ 992px (Tablet portrait & mobile) ──────── */
+@media (max-width: 992px) {
+  /* Remove sidebar offset */
+  .main-content {
+    margin-left: 0 !important;
+    max-width: 100vw !important;
+    padding: 1.25rem;
+  }
+
+  /* Sidebar slides in as drawer */
+  .sidebar-container {
+    transform: translateX(-100%) !important;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: none !important;
+    width: min(300px, 80vw) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    background: rgba(8, 11, 20, 0.98) !important;
+    z-index: 1100 !important;
+  }
+
+  .sidebar-container.open {
+    transform: translateX(0) !important;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.6) !important;
+  }
+
+  /* Show hamburger button */
+  .sidebar-mobile-toggle {
+    display: flex !important;
+  }
+
+  /* Show close button inside sidebar */
+  .sidebar-mobile-close {
+    display: flex !important;
+  }
+
+  /* Backdrop overlay — sits BELOW sidebar z-index */
+  .sidebar-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 1050; /* below sidebar (1100) but above content */
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .sidebar-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* Dashboard stacked columns */
+  .dashboard-col-left,
+  .dashboard-col-right,
+  .admin-panel-left,
+  .admin-panel-right {
+    flex: 1 1 100% !important;
+    min-width: 0 !important;
+  }
+
+  .dashboard-col-right {
+    padding: 1.25rem !important;
+  }
+}
+
+/* ── BREAKPOINT: ≤ 768px (Mobile landscape / small tablet) ── */
+@media (max-width: 768px) {
+  html { font-size: 14px; }
+
+  .main-content { padding: 1rem; }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .grid-2-col { grid-template-columns: 1fr; }
+
+  /* Modals */
+  .modal-card {
+    padding: 1.25rem !important;
+    margin: 0;
+    border-radius: var(--radius-md) !important;
+    max-height: 95vh;
+  }
+
+  /* Table cells tighter on mobile */
+  .table td, .table th { padding: 0.85rem 0.75rem; }
+
+  /* Table wrapper border */
+  .table-responsive {
+    border: 1px solid var(--glass-border);
+    margin-top: 0.5rem;
+    border-radius: var(--radius-sm);
+  }
+
+  /* Auth cards */
+  .auth-container { padding: 1rem !important; align-items: flex-start; padding-top: 2rem !important; }
+  .auth-card      { padding: 1.5rem 1rem !important; }
+
+  /* Wallet balance banner stack */
+  .balance-banner {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    padding: 1.5rem !important;
+    gap: 1rem !important;
+  }
+  .banner-left {
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 1rem !important;
+  }
+  .balance-banner button { width: 100% !important; }
+
+  /* Admin plan manager header */
+  .plan-mgr-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.75rem !important;
+  }
+  .plan-mgr-header .btn { width: 100% !important; }
+
+  /* Modal action buttons full-width on mobile */
+  .modal-actions-row {
+    flex-direction: column-reverse !important;
+    gap: 0.5rem !important;
+  }
+  .modal-actions-row .btn { width: 100% !important; }
+
+  /* Notifications dropdown full width on small screens */
+  .notifications-dropdown {
+    width: calc(100vw - 2rem) !important;
+    right: -0.5rem !important;
+    max-width: 100vw !important;
+  }
+
+  /* Admin tab bar text size */
+  .admin-tab-bar button { font-size: 0.8rem !important; padding: 0.55rem 0.85rem !important; }
+}
+
+/* ── BREAKPOINT: ≤ 576px (Mobile portrait) ───────────────── */
+@media (max-width: 576px) {
+  html { font-size: 13.5px; }
+
+  .main-content { padding: 0.875rem; }
+
+  .btn {
+    padding: 0.75rem 1rem;
+    min-height: 44px;
+  }
+
+  /* Details grid in plan cards — single column */
+  .details-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.5rem !important;
+  }
+
+  /* Prevent long reference codes overflowing table cells */
+  .table td { max-width: 200px; overflow: hidden; text-overflow: ellipsis; }
+}
+
+/* ── BREAKPOINT: ≤ 480px (Small mobile) ─────────────────── */
+@media (max-width: 480px) {
+  html { font-size: 13px; }
+
+  .main-content { padding: 0.75rem; }
+
+  .form-control, .btn {
+    font-size: 0.9rem;
+    padding: 0.85rem 0.875rem;
+    min-height: 44px;
+  }
+
+  .btn { white-space: normal; }
+
+  .auth-container { padding: 0.75rem !important; }
+  .auth-card { padding: 1.25rem 0.875rem !important; border-radius: var(--radius-md) !important; }
+
+  /* Notifications full width */
+  .notifications-dropdown {
+    width: calc(100vw - 1.5rem) !important;
+    right: -0.5rem !important;
+  }
+}
+
+/* ── BREAKPOINT: ≤ 425px (iPhone SE / Android compact) ───── */
+@media (max-width: 425px) {
+  html { font-size: 12.5px; }
+
+  .main-content { padding: 0.625rem; }
+
+  .grid-container { gap: 0.75rem; margin-bottom: 1.25rem; }
+
+  .table th, .table td { padding: 0.75rem 0.6rem; font-size: 0.8rem; }
+}
+
+/* ── BREAKPOINT: ≤ 375px (iPhone 12/SE) ──────────────────── */
+@media (max-width: 375px) {
+  html { font-size: 12px; }
+
+  .navbar-title { font-size: 1rem !important; max-width: 55vw !important; }
+
+  .main-content { padding: 0.5rem; }
+
+  .auth-card { padding: 1rem 0.75rem !important; }
+}
+
+/* ── BREAKPOINT: ≤ 320px (Very small devices) ────────────── */
+@media (max-width: 320px) {
+  html { font-size: 11.5px; }
+
+  .main-content { padding: 0.5rem; }
+
+  .btn { padding: 0.65rem 0.75rem; font-size: 0.8rem; }
+
+  .table th, .table td { padding: 0.6rem 0.5rem; font-size: 0.75rem; }
+
+  .glass-panel { border-radius: var(--radius-sm); }
+}
+
+/* ── BREAKPOINT: ≥ 1024px (Desktop) ─────────────────────── */
+@media (min-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+/* ── BREAKPOINT: ≥ 1440px (Large desktop) ───────────────── */
+@media (min-width: 1440px) {
+  .main-content { padding: 2.5rem; }
+}
+
+/* ── BREAKPOINT: ≥ 1920px (Ultra-wide) ─────────────────── */
+@media (min-width: 1920px) {
+  .main-content { padding: 3rem; max-width: 1600px; }
+  .app-container { justify-content: center; }
+}
