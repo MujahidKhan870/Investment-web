@@ -22,30 +22,39 @@ const notificationRoutes = require('./routes/notificationRoutes');
 
 const app = express();
 
-// 1. Security & Standard Middlewares
+/* ========================
+   SECURITY & MIDDLEWARE
+======================== */
+
 app.use(helmet());
+
+/* ✅ FIXED CORS (NO ENV ISSUE NOW) */
 app.use(
   cors({
-    origin: process.env.CORS_ORIGIN || 'http://localhost:5173',
+    origin: 'https://investment-web-five.vercel.app',
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS']
   })
 );
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
-// Morgan API Logger
+/* LOGGING */
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 } else {
   app.use(morgan('combined', { stream: { write: (msg) => logger.info(msg.trim()) } }));
 }
 
-// 2. Global Rate Limiter for all routes
+/* RATE LIMIT */
 app.use('/api', apiLimiter);
 
-// 3. API Routers
+/* ========================
+   ROUTES
+======================== */
+
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/wallet', walletRoutes);
@@ -54,7 +63,7 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/reports', reportRoutes);
 app.use('/api/notifications', notificationRoutes);
 
-// Base Health Check endpoint
+/* HEALTH CHECK */
 app.get('/health', (req, res) => {
   res.status(200).json({
     status: 'success',
@@ -63,26 +72,33 @@ app.get('/health', (req, res) => {
   });
 });
 
-// 4. Global Error Handler Middleware
+/* ROOT ROUTE (FIX FOR "Cannot GET /") */
+app.get('/', (req, res) => {
+  res.send('Investment API Backend is running 🚀');
+});
+
+/* ERROR HANDLER */
 app.use(errorHandler);
+
+/* ========================
+   START SERVER
+======================== */
 
 const PORT = process.env.PORT || 5000;
 
 const startServer = async () => {
   try {
-    // Connect to database
     await connectDB();
 
-    // Trigger seeding dynamically if database is empty
     const seed = require('./scripts/seed');
-    await seed.seedDatabase();
+    seed.seedDatabase().catch(err => logger.error('Seed error:', err));
 
-    // Initialize daily profit calculations background crons
-    await initCron();
+    initCron().catch(err => logger.error('Cron error:', err));
 
     app.listen(PORT, () => {
       logger.info(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`);
     });
+
   } catch (error) {
     logger.error('Failed to start server:', error.message);
     process.exit(1);
