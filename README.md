@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aura Capital - Investment & Portfolio Platform (MERN Stack)
 
 A production-ready, fully responsive, and highly secure MERN Stack web application for Portfolio Management and Investment Returns generation. Features a premium glassmorphic dark-theme UI, comprehensive ledger audits, role-based controls, dynamic SVG charts, and interactive administrator portals.
@@ -163,3 +164,7 @@ The system contains an automated background scheduler that processes investments
 4. **Calculations**:
    $$\text{Payout Amount} = \text{Amount Invested} \times \left(\frac{\text{Daily Return Percentage}}{100}\right)$$
    Increments `Wallet.balance`, `Wallet.totalEarnings`, and logs dashboard alerts.
+=======
+# Investment-web
+Professional MERN-based Investment Platform with responsive UI, user dashboard, investment plans, wallet management, analytics, and admin panel.
+>>>>>>> 3d207061b55f5cd4647702ae635a5e340cd362bb
