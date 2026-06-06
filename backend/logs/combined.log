@@ -752,3 +752,12 @@
     at router (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:47:12)
     at Layer.handle [as handle_request] (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\layer.js:95:5)
     at trim_prefix (C:\Users\Mujahid Khan\.gemini\antigravity\scratch\investment-portfolio-platform\backend\node_modules\express\lib\router\index.js:328:13)
+[2026-06-06T10:38:24.797Z] INFO: Running database verification and seeding check...
+[2026-06-06T10:38:24.801Z] INFO: Resetting and seeding default plans in Indian Rupees (₹)...
+[2026-06-06T10:38:33.661Z] INFO: Successfully seeded default investment plans in Rupees.
+[2026-06-06T10:38:33.662Z] INFO: Resetting and seeding default configurations in Indian Rupees (₹)...
+[2026-06-06T10:38:33.861Z] INFO: Successfully seeded platform settings.
+[2026-06-06T10:38:34.140Z] INFO: Administrator user already exists. Seeding skipped.
+[2026-06-06T10:38:34.141Z] INFO: Database seeding checks completed successfully.
+[2026-06-06T10:38:34.242Z] INFO: Initializing Earnings Calculation Cron Job with schedule: [0 0 * * *]
+[2026-06-06T10:38:34.253Z] INFO: Server running in development mode on port 5002
